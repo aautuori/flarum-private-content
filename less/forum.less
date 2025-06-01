@@ -1,0 +1,14 @@
+.private-content {
+  background-color: #f8f8f8;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #777;
+
+  // Opzionale: stile per indicare che è contenuto privato
+  &::before {
+    content: "[Privato] ";
+    font-weight: bold;
+    color: #999;
+  }
+}
