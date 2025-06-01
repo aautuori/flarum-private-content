@@ -1,0 +1,27 @@
+{
+    "name": "acme/private-content",
+    "description": "A Flarum extension to add a private tag visible only to logged-in users.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mister Movie",
+            "email": "staff@mistermovie.it"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\PrivateContent\\": ""
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Private Content Tag",
+            "category": "feature",
+            "icon": "fas fa-user-secret"
+        }
+    }
+}
